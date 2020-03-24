@@ -1,2 +1,1 @@
-lscpu >file2
-grep -i "model" ./file2
+lscpu | grep -i "model" 

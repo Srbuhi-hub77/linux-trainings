@@ -1,2 +1,2 @@
 
-grep -i "kernel" ./file1
+hostnamectl | grep -i "kernel" | awk '{print $2 " " $3}'
